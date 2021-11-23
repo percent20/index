@@ -2063,7 +2063,7 @@
          </entry>
       </properties>
       <nozzle-tips>
-         <nozzle-tip class="org.openpnp.machine.reference.ReferenceNozzleTip" id="NT1" name="CP40 N08" pick-dwell-milliseconds="100" place-dwell-milliseconds="500" vision-calibration="FirstLocation" vision-calibration-trigger="NozzleTipChange" vision-match-minimum-score="0.6" vision-calibration-max-passes="3" z-calibration-trigger="Manual" z-calibration-fail-homing="true" template-nozzle-tip="false" template-locked="false" establish-part-on-level="true" establish-part-off-level="true" part-off-probing-milliseconds="2000" part-off-dwell-milliseconds="1000" is-push-and-drag-allowed="false">
+         <nozzle-tip class="org.openpnp.machine.reference.ReferenceNozzleTip" id="NT1" name="CP40 N08" pick-dwell-milliseconds="100" place-dwell-milliseconds="500" vision-calibration="None" vision-calibration-trigger="NozzleTipChange" vision-match-minimum-score="0.6" vision-calibration-max-passes="3" z-calibration-trigger="Manual" z-calibration-fail-homing="true" template-nozzle-tip="true" template-locked="false" establish-part-on-level="true" establish-part-off-level="true" part-off-probing-milliseconds="2000" part-off-dwell-milliseconds="1000" is-push-and-drag-allowed="false">
             <changer-start-location units="Millimeters" x="188.36" y="97.25" z="13.8" rotation="0.0"/>
             <changer-start-to-mid-speed>0.2</changer-start-to-mid-speed>
             <changer-mid-location units="Millimeters" x="285.054" y="157.11" z="13.5" rotation="0.0"/>
@@ -2118,7 +2118,7 @@
             <vacuum-difference-part-off-high>2000.0</vacuum-difference-part-off-high>
             <diameter-low value="0.0" units="Millimeters"/>
          </nozzle-tip>
-         <nozzle-tip class="org.openpnp.machine.reference.ReferenceNozzleTip" id="TIP16a506d36b647110" name="CP40 N045" pick-dwell-milliseconds="0" place-dwell-milliseconds="0" vision-calibration="FirstLocation" vision-calibration-trigger="NozzleTipChange" vision-match-minimum-score="0.5" vision-calibration-max-passes="3" z-calibration-trigger="Manual" z-calibration-fail-homing="true" template-nozzle-tip="true" template-locked="false" establish-part-on-level="false" establish-part-off-level="false" part-off-probing-milliseconds="0" part-off-dwell-milliseconds="0" is-push-and-drag-allowed="false">
+         <nozzle-tip class="org.openpnp.machine.reference.ReferenceNozzleTip" id="TIP16a506d36b647110" name="CP40 N045" pick-dwell-milliseconds="0" place-dwell-milliseconds="0" vision-calibration="None" vision-calibration-trigger="NozzleTipChange" vision-match-minimum-score="0.5" vision-calibration-max-passes="3" z-calibration-trigger="Manual" z-calibration-fail-homing="true" template-nozzle-tip="false" template-locked="false" establish-part-on-level="false" establish-part-off-level="false" part-off-probing-milliseconds="0" part-off-dwell-milliseconds="0" is-push-and-drag-allowed="false">
             <changer-start-location units="Millimeters" x="188.26" y="109.35" z="8.5" rotation="0.0"/>
             <changer-start-to-mid-speed>0.25</changer-start-to-mid-speed>
             <changer-mid-location units="Millimeters" x="200.26" y="108.75" z="8.5" rotation="0.0"/>
