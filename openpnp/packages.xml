@@ -1,10 +1,4 @@
 <openpnp-packages>
-   <package version="1.1" id="FIDUCIAL-1X2" pick-vacuum-level="0.0" place-blow-off-level="0.0">
-      <footprint units="Millimeters" body-width="0.0" body-height="0.0">
-         <pad name="1" x="0.0" y="0.0" width="1.0" height="1.0" rotation="0.0" roundness="100.0"/>
-      </footprint>
-      <compatible-nozzle-tip-ids class="java.util.ArrayList"/>
-   </package>
    <package version="1.1" id="LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" pick-vacuum-level="0.0" place-blow-off-level="0.0">
       <footprint units="Millimeters" body-width="5.4" body-height="4.2">
          <pad name="1" x="-2.25" y="1.65" width="0.9" height="0.9" rotation="0.0" roundness="0.0"/>
@@ -114,8 +108,10 @@
       <compatible-nozzle-tip-ids class="java.util.ArrayList"/>
    </package>
    <package version="1.1" id="LQFP-48_7x7mm_P0.5mm" pick-vacuum-level="0.0" place-blow-off-level="0.0">
-      <footprint units="Millimeters" body-width="0.0" body-height="0.0"/>
-      <compatible-nozzle-tip-ids class="java.util.ArrayList"/>
+      <footprint units="Millimeters" body-width="9.0" body-height="9.0"/>
+      <compatible-nozzle-tip-ids class="java.util.ArrayList">
+         <string>NT1</string>
+      </compatible-nozzle-tip-ids>
    </package>
    <package version="1.1" id="SO-8_3.9x4.9mm_P1.27mm" pick-vacuum-level="0.0" place-blow-off-level="0.0">
       <footprint units="Millimeters" body-width="0.0" body-height="0.0"/>
